@@ -13,11 +13,11 @@ In this step, you're going to change the processing logic to get the value of th
 <br><br>
 _Hint:_<br> 
 ```
-var $donutType = $(this).find("......"); 
-var donutType = .....;
-var $img = $("...");
+var $donutType = $(this).find("[name=type]"); 
+var donutType = XXXXX.YYYYY;
+var $img = $("ZZZZZ");
 $img.width(100);
-$img.attr("src", ....);
+$img.attr("src", AAAAA);
 $img.appendTo("body");
 ```
 <br><br>
